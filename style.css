@@ -1,0 +1,161 @@
+.dog1{
+    position: absolute;
+    top: 65%;
+    right: 10%;
+    width: 200px; /* Adjust the width and height according to your needs */
+    height: 200px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .abc{
+    background-color:#e4f9f5
+  }
+  
+  h1{
+    text-align: center;
+  }
+
+.Arslan{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #e4f9f5;
+}
+
+.profile-img{
+    border-top: 5;
+    border-radius: 50%;
+}
+
+.images{
+    text-align: center;
+}
+.intro{
+    text-align: center;
+    background-color: #e4f9f5; ;
+}
+
+h2{
+    color: #66bfbf;
+}
+
+.I{
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    font-weight: bold;
+}
+.skills{
+    background-color: #e4f9f5; 
+}
+
+p{
+    margin-bottom: auto;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.moon{
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: 90%;
+    width: 5%;
+}
+.skills{
+    background-color: #e4f9f5;
+    margin-bottom: auto;
+}
+
+.skilltext{
+    margin-top: 2;
+    text-align: center;
+}
+
+.center {
+  width: 30%;
+  margin: auto;
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 15pt;
+}
+
+.cat{
+  height: 150px;
+  border-radius: 70%;
+  float: left;
+  margin-right: 10px;
+}
+body{
+  background-color: #e4f9f5; ;
+}
+
+.def{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.wi{
+  width: 30%;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+.page-footer {
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  z-index: 1;
+}
+
+.page-footer a {
+  display: flex;
+  margin-left: 4px;
+}
+
+.gym{
+  text-align: center;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+
+.footer-link{
+    color: black;
+    font-family:  'Advent Pro', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
